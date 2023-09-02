@@ -27,3 +27,5 @@ copyArr.push("New");
 
 console.log(JSON.stringify(obj, null, 2));
 console.log(JSON.stringify(arr, null, 2));
+
+export {};
