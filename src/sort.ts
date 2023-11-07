@@ -1,12 +1,4 @@
-const arr: (number | string)[] = [
-  "Naseema",
-  "Ibrahim",
-  "Hisan",
-  "Irfan",
-  "1",
-  "Nasrin",
-  "Shadin",
-];
+const arr: (number | string)[] = ["Naseema", "Ibrahim", "Hisan", "Irfan", "1", "Nasrin", "Shadin"];
 
 arr.sort((a, b): number => {
   if (a > b) return 1; // Return a positive value to place 'a' after 'b'
